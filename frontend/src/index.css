@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.btn {
+  @apply bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700;
+}
+
+.btn-sm {
+  @apply bg-indigo-500 text-white px-3 py-1 rounded-md hover:bg-indigo-600 text-sm;
+}
+
+.btn-outline-sm {
+  @apply border border-indigo-400 text-indigo-600 px-3 py-1 rounded-md hover:bg-indigo-50 text-sm;
+}
